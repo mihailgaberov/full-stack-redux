@@ -1,6 +1,8 @@
 /**
  * Created by Mihail on 5/28/2017.
  */
+const webpack = require('webpack')
+
 module.exports = {
   entry: [
     'webpack-dev-server/client?http://localhost:8080',
