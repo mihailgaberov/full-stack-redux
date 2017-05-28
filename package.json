@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "start": "babel-node index.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js  --recursive",
     "test:watch": "yarn test -- --watch"
   },
@@ -22,6 +23,7 @@
   },
   "dependencies": {
     "immutable": "^3.8.1",
-    "redux": "^3.6.0"
+    "redux": "^3.6.0",
+    "socket.io": "^2.0.1"
   }
 }
