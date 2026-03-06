@@ -22,7 +22,7 @@
     "mocha": "^3.4.2"
   },
   "dependencies": {
-    "immutable": "^3.8.1",
+    "immutable": "^3.8.3",
     "redux": "^3.6.0",
     "socket.io": "^2.5.0"
   }
